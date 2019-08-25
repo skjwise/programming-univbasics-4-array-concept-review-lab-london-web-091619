@@ -1,6 +1,7 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
-  array.each { |index| puts array[index] }
+  array.each_with_index |item, index|
+  
 end
 
 def find_max_value(array)
