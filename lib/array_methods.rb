@@ -3,6 +3,8 @@ def find_element_index(array, value_to_find)
   array.each_with_index do |item, index|
   value_to_find[index]
 end
+return index
+end
 
 def find_max_value(array)
   # Add your solution here
