@@ -3,6 +3,8 @@ def find_element_index(array, value_to_find)
   array.each_with_index do |item, index|
     if item == value_to_find
       return index
+    else
+      return NIL
   end
 end
 end
